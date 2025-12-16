@@ -5,7 +5,7 @@ import './WinterSolsticeCountdown.css';
 
 const WinterSolsticeCountdown: React.FC = () => {
   // Winter Solstice 2025: December 21, 2025 at 9:48 UTC
-  const targetDate = new Date('2025-12-21T09:48:00Z').getTime();
+  const targetDate = new Date('2025-12-22T09:48:00Z').getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
